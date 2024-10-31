@@ -1,0 +1,12 @@
+.translate {
+    background-color: blueviolet;
+    width: 300px;
+    transform: translate(100px, 100px);
+}
+
+.rotate {
+    background-color: crimson;
+    width: 200px;
+    height: 200px;
+    transform: rotate(45deg);
+}

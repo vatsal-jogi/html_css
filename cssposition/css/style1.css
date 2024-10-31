@@ -1,0 +1,47 @@
+.one{
+    width:200px;
+    height:200px;
+    background-color: brown;
+    animation: one;
+    animation-duration: 10s;
+    position: relative;
+}
+
+@keyframes one{
+    0%{
+        background-color: darkcyan;
+        top: 0;
+        left: 0;
+        border-radius: 0%;
+    }
+
+    25%{
+        background-color: rgb(0, 65, 177);
+        top: 0;
+        left: 300px;
+        border-radius: 0%;
+    }
+
+    50%{
+        background-color: rgb(168, 168, 91);
+        bottom: 300px;
+        right: 0;
+        border-radius: 0%;
+    }
+
+    75%{
+        background-color: coral;
+        top: 300px;
+        left: 0;
+        
+    }
+
+    100%{
+        background-color: rgb(227, 153, 224);
+        top: 0;
+        left: 0;
+        border-radius: 0%;
+    }
+
+
+}

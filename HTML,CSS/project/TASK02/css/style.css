@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-image: url(../image/beachshowcase.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0;
+    background-size: 100% 100%;
+}
+
+header nav{
+    margin: 0;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+header nav h1{
+      font-size:60px;
+      color:brown;
+      text-align: center;
+      padding-top: 9px;
+      margin: 0;
+}
+
+header nav p{
+    font-size:large;
+    color:brown;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.b1{
+    border-radius: 6px;
+    padding: 10px;
+    color: brown;
+    padding-bottom:10px;
+    border-color:brown;
+    border-width: 3px;
+  text-decoration: none;
+  border-style: solid;
+    margin-top: 10px;
+    
+}
+
+.p1{
+   background-color:brown ;
+   color: blanchedalmond;
+   text-align: justify;
+   padding: 10px;
+}
+
+.p2{
+    background-color: whitesmoke;
+    color:brown;
+    text-align: justify;
+    padding: 10px;
+ }
+footer{
+    display: inline;
+}
+
+.section1{
+    width: 421px;
+    box-sizing: border-box;
+    float: left;
+    background-color:brown ;
+    text-align: justify;
+    padding: 4px;
+    color: aliceblue;
+}
+
+.section2{
+    width: 421px;
+    box-sizing: border-box;
+    float: left;
+    background-color:white ;
+    text-align:justify;
+    padding: 4px;
+    color: brown;
+}
+
+.section3{
+    width: 421px;
+    box-sizing: border-box;
+    background-color: brown;
+    float: left;
+    text-align: justify;
+    padding: 4px;
+    color:  aliceblue;
+}
+.clear{
+    clear: both;
+}
+
+.button{
+    padding-top: 20px;
+}

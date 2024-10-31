@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+}
+header{
+    background-image: url(../image/Banner_01.png);
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: 100%;
+    padding: 120px;
+
+}
+
+header h2{
+    padding: 20px;
+}
+
+.box1 {
+    border: 2px solid cadetblue;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+
+.box2{
+    border: 2px solid cadetblue;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    margin-top: 3px;
+    
+}
+
+.box3{
+    border: 2px solid cadetblue;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    margin-top: 3px;
+}
+.box4{
+    border: 2px solid cadetblue;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.box5{
+    border: 2px solid cadetblue;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.box6{
+    border: 2px solid cadetblue;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    margin-top: 3px;
+}
+.box1,.box2,.box3,.box4,.box5,.box6{
+    box-sizing: border-box;
+    float: left;
+    margin: 8px;
+}
+
+.box1 h2,.box2 h2,.box3 h2,.box4 h2,.box5 h2,.box6 h2{
+    padding: 20px;
+}
+.box1 h4,.box2 h4,.box3 h4,.box4 h4,.box5 h4,.box6 h4{
+    padding-bottom: 25px;
+}
+
+
+.box1 a{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px;
+    border: 3px solid lightblue
+
+}
+
+.box2 a{
+    background-color: rgb(86, 138, 234);
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px;
+    border: 3px solid lightblue
+
+}
+
+.box3 a{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px;
+    border: 3px solid lightblue
+
+}
+
+.box4 a{
+    background-color:  darkslategrey;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px;
+    border: 3px solid lightblue
+
+}
+
+.box5 a{
+    background-color: darkslategrey;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px;
+    border: 3px solid lightblue
+
+}
+
+.box6 a{
+    background-color:  darkslategrey;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px;
+    border: 3px solid lightblue
+
+}
+
+
+.clear{
+    clear: both;
+}
+
+.container{
+    padding-left: 90px;
+    padding-top: 20px;
+}
+
+.container1{
+    padding-left: 90px;
+}
+span{
+    background-color: white;
+    font-size: large;
+    margin: -100px;
+    padding: 18px 10px;
+}
+
+.box1 span{
+    color: green;
+}
+
+.box2 span{
+    color: rgb(86, 138, 234);
+}
+
+.box3 span{
+    color: red;
+}
+
+.box4 span,.box5 span,.box6 span{
+    color: darkslategrey;
+}
+
+

@@ -1,0 +1,31 @@
+.main{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    transition: width 2s, height 3s, background-color 5s,transform 6s,radius 5s;
+
+}
+
+.main:hover{
+    width: 400px;
+    height: 450px;
+    background-color: darksalmon;
+    transform: rotate(360deg);
+    border-radius: 50px; 
+}
+.matrix{
+    height: 500px;
+    width: 300px;
+    background-color: lightseagreen;
+    border: 20px solid rgb(232, 128, 250);
+    position: relative;
+    top: 200px;
+    left: 300px;
+    transform: rotate(45deg);
+    transform: skewy(45deg);
+    transform: skewX(20deg);
+    
+
+}
+.matrix:hover {
+}

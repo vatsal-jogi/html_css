@@ -1,0 +1,17 @@
+body {
+    background-color: yellow;
+}
+
+.left {
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    float: left;
+}
+
+.right {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    float: right;
+}

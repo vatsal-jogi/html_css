@@ -1,0 +1,21 @@
+body {
+    background-color: bisque;
+}
+
+.left {
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    float: left;
+}
+
+.right {
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}

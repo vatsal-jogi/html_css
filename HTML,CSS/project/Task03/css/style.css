@@ -1,0 +1,274 @@
+body{
+    margin:0;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+ 
+header{
+    height: 500px;
+    background-image: url("../image/Banner_01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+header nav h1{
+     font-size: xx-large;
+     color: white;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     padding-top: 15%;
+     text-align: center;
+}
+
+header nav p{
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align:center;
+    padding: 20px;
+}
+.clear{
+    clear: both;
+}
+section{
+    margin: 10px 30px;
+}
+.row1{
+    padding-left: 15px;
+}
+.row2{
+    padding-left: 15px;
+}
+
+   
+[class*="col-"] {
+    width: 30.33%;
+    height: 200px;
+    float: left;
+    padding: 10px;
+    display: inline;
+    border:2px solid lightgray;
+    border-radius:2px;
+    text-align: center;
+    margin: 12px;
+    box-sizing: border-box;
+}
+
+span{
+     margin: -19px;
+     background-color: white;
+     padding: 18px 10px;
+     font-size: large;
+
+     
+}
+.b1{
+    padding-top: 18px;
+    margin-top: 8px;
+}
+
+h1{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:8px;
+}
+ a{
+    text-decoration: none;
+    padding:15px;
+    border: 2px solid lightgray;
+    border-radius: 2px;
+    margin-top: 4px;   
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .col-1 span{
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+ }
+.col-1 div a{
+    background-color: green;
+}
+
+.col-2 span{
+    color:skyblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+ }
+.col-2 div a{
+    background-color:skyblue;
+ }
+ .col-3 span{
+    color:orange;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+ }
+.col-3 div a{
+    background-color:orange;
+ }
+ .col-4 span{
+    color:navy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+ }
+ .col-4 div a{
+    background-color:navy;
+ }
+ .col-5 span{
+    color:navy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+ }
+ .col-5 div a{
+    background-color:navy;
+ }
+ .col-6 span{
+    color:navy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+ }
+ .col-6 div a{
+    background-color:navy;
+ }
+
+ @media only screen and (min-width: 400px) {
+    .col-1 {
+        width: 30.33%;
+    }
+    .col-2 {
+        width: 30.33%;
+    }
+    .col-3 {
+        width: 30.33%;
+    }
+    .col-4 {
+        width: 30.33%;
+    }
+    .col-5 {
+        width: 30.33%;
+    }
+    .col-6 {
+        width: 30.33%;
+   
+}
+ }
+
+@media only screen and (min-width: 680px) {
+    .col-md-1 {
+    width: 30.33%;
+}
+.col-md-2 {
+    width: 30.33%;
+}
+.col-md-3 {
+    width: 30.33%;
+}
+.col-md-4 {
+    width: 30.33%;
+}
+.col-md-5 {
+    width: 30.33%;
+}
+.col-md-6 {
+    width: 30.33%;
+}
+}
+
+@media only screen and (min-width: 880px) {  
+    .col-lg-1 {
+    width: 30.33%;
+}
+.col-lg-2 {
+    width: 30.33%;
+}
+.col-lg-3 {
+    width: 30.33%;
+}
+.col-lg-4 {
+    width: 30.33%;
+}
+.col-lg-5 {
+    width: 30.33%;
+}
+.col-lg-6 {
+    width: 30.33%;
+ }
+
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 

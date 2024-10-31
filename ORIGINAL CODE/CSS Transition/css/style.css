@@ -1,0 +1,13 @@
+.main {
+    width: 100px;
+    height: 100px;
+    background-color: firebrick;
+    transition: width 5s, height 5s, background-color 5s, transform 5s;
+}
+
+.main:hover {
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    transform: rotate(360deg);
+}

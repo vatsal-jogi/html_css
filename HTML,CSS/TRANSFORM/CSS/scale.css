@@ -1,0 +1,62 @@
+.scale {
+    height: 200px;
+    width: 200px;
+    background-color: deepskyblue;
+    position: relative;
+    top: 200px;
+    left: 300px;
+    transition: transform 5s;
+}
+
+.scale:hover {
+    transform: scale(2, 2);
+}
+
+.skew {
+    height: 200px;
+    width: 200px;
+    border: 5px solid darkred;
+    transition: transform 5s;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    transform: skew(20deg, 40deg);
+}
+
+.skew:hover {
+    transform: skew(30deg, 60deg);
+}
+
+.matrix {
+    height: 200px;
+    width: 200px;
+    background-color: deeppink;
+    transition: transform 5s;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.matrix:hover {
+    transform: matrix(2, 1, 0.5, 1, 150, 150);
+}
+
+.dimond {
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom: 20px solid red;
+    position: relative;
+    top: -50px;
+}
+
+.dimond:after {
+    content: '';
+    position: absolute;
+    left: -50px;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-top: 70px solid red;
+}

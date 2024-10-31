@@ -1,0 +1,43 @@
+  .first {
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {
+        background-color: violet;
+        left: 0;
+        top: 0;
+        border-radius: 0%;
+    }
+    25% {
+        background-color: greenyellow;
+        top: 0;
+        left: 300px;
+        border-radius: 50%;
+    }
+    50% {
+        background-color: blue;
+        top: 300px;
+        left: 300px;
+        border-radius: 0%;
+    }
+    75% {
+        background-color: palevioletred;
+        top: 300px;
+        left: 0px;
+        border-radius: 50%;
+    }
+    100% {
+        background-color: yellow;
+        top: 0;
+        left: 0;
+        border-radius: 0%;
+    }
+}

@@ -1,0 +1,70 @@
+.translate {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    padding: 20px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.translate:hover {
+    width: 300px;
+    height: 300px;
+    transform: translate(50px, 200px);
+}
+
+.rotate {
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    transition: height 2s, width 2s, transform 2s;
+}
+
+.rotate:hover {
+    height: 500px;
+    width: 500px;
+    transform: rotate(45deg);
+}
+
+.scale {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    background-color: dodgerblue;
+    transition: transform 2s;
+}
+
+.scale:hover {
+    /*transform: scale(2);*/
+    /*transform: scaleX(2);*/
+    transform: scaleY(2);
+}
+
+.skew {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    border: 5px solid red;
+    transition: transform 2s;
+}
+
+.skew:hover {
+    /*transform: skewX(45deg);*/
+    /*transform: skewY(45deg);*/
+    transform: skew(45deg, 45deg);
+}
+
+.matrix {
+    height: 200px;
+    width: 200px;
+    background-color: deeppink;
+    border: 5px solid blueviolet;
+    transition: transform 2s;
+}
+
+.matrix:hover {
+    transform: matrix(2, 0, 0.5, 1, 150, 150);
+}

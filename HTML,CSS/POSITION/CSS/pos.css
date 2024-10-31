@@ -1,0 +1,14 @@
+.parent {
+    height: 200px;
+    width: 200px;
+    background-color: lightseagreen;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+p {
+    font-size: 50px;
+    text-align: justify;
+    color: cornflowerblue;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .re{
+            position: relative;
+            width: 400px;
+            height: 200px;
+            border: 3px solid #73AD21;
+        }
+        .ab{
+            position: absolute;
+             top: 80px;
+             right: 10px;
+             width: 200px;
+             height: 100px;
+            border: 3px solid #73AD21;
+        }
+    </style>
+</head>
+<body>
+    <h2>this is postion absolute</h2>
+    <p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+    However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+        Note: Absolute positioned elements are removed from the normal flow, and can overlap elements.</p>
+        <div class="re">
+            this is postion relative
+        
+        <div class="ab">
+            this is postion absolute
+        </div>
+        </div>
+</body>
+</html>

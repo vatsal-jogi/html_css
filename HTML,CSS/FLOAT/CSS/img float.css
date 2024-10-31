@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background-color: cyan;
+}
+
+.img {
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    height: 200px;
+    padding: 50px;
+    transition: 3s;
+    border: 3px solid pink;
+    border-width: 3px;
+}
+
+.clear {
+    clear: both;
+}
+
+.img:hover {
+    transform: rotate(180deg);
+    border-radius: 20px;
+}

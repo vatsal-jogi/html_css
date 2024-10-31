@@ -1,0 +1,29 @@
+h1 {
+    background-color: blue;
+    color: #FFF;
+    text-align: center;
+    display: inline;
+}
+
+a {
+    background-color: orangered;
+    color: #FFF;
+    font-size: 30px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.first {
+    background-color: darkmagenta;
+    color: #FFF;
+    font-size: 20px;
+    display: none;
+}
+
+a:hover .first {
+    display: block;
+    background-color: red;
+}

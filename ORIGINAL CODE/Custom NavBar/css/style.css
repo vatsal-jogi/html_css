@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: coral;
+}
+
+header nav a {
+    display: inline-block;
+    float: left;
+    margin: 10px;
+}
+
+header nav a img {
+    height: 100px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(78, 18, 18);
+    padding: 39px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu ul li a:hover {
+    background-color: black;
+    color: #FFF !important;
+    transition: 2s;
+}
+
+.active {
+    background-color: black;
+    color: #FFF !important;
+}
+
+.clearfix {
+    clear: both;
+}

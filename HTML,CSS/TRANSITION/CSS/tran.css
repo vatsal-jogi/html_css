@@ -1,0 +1,34 @@
+.main {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    transition: height 5s, width 5s, background-color 5s, transform 5s, border 5s;
+}
+
+.main:hover {
+    height: 500px;
+    width: 500px;
+    background-color: crimson;
+    transform: rotate(360deg);
+    border-radius: 50px;
+    animation-name: demo;
+    animation-duration: 3s;
+}
+
+@keyframes demo {
+    0% {
+        background-color: burlywood;
+    }
+    25% {
+        background-color: chartreuse;
+    }
+    50% {
+        background-color: crimson;
+    }
+    75% {
+        background-color: darkolivegreen;
+    }
+    100% {
+        background-color: darksalmon;
+    }
+}

@@ -1,0 +1,22 @@
+.main {
+    background-color: yellow;
+    padding: 20px;
+}
+
+.left {
+    height: 200px;
+    width: 200px;
+    background-color: maroon;
+    float: left;
+}
+
+.right {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}

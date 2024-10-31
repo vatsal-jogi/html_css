@@ -1,0 +1,52 @@
+.parent{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    position: relative;
+}
+
+.child{
+    height: 50%;
+    width: 50%;
+    background-color: hotpink;
+    position: absolute;
+    top: 0;
+    right:0;
+}
+
+
+.child1{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(120, 105, 255);
+    position: absolute;
+    bottom: 0;
+    right:0;
+
+}
+
+
+.child2{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(54, 44, 49);
+    position: absolute;
+    top: 0;
+    left:0;
+
+}
+
+
+.child3{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(153, 255, 105);
+    position: absolute;
+    bottom: 0;
+    left:0;
+
+}
+
+.child:hover,.child1:hover,.child2:hover,.child3:hover{
+    background-color: rgb(47, 230, 114);
+}

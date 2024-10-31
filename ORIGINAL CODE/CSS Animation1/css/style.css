@@ -1,0 +1,16 @@
+@keyframes anim_name {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: yellow;
+    }
+}
+
+.one {
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    animation-name: anim_name;
+    animation-duration: 5s;
+}

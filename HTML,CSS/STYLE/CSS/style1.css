@@ -1,0 +1,36 @@
+.first {
+    border-color: lightpink;
+    border-style: dotted;
+    border-width: 10px;
+    background-color: aliceblue;
+}
+
+.second {
+    border-top-color: aqua;
+    border-bottom-color: cadetblue;
+    border-left-color: cornflowerblue;
+    border-right-color: coral;
+    border-top-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: groove;
+    border-right-style: dashed;
+    background-color: aliceblue;
+    border-width: 10px;
+}
+
+body {
+    background-image: url(../image/im1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.third {
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: aliceblue;
+    border-top-color: aqua;
+    border-bottom-color: cadetblue;
+    border-left-color: cornflowerblue;
+    border-right-color: coral;
+    border-width: 10px;
+}

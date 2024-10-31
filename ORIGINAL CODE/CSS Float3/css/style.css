@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.main {
+    background-color: red;
+    padding: 50px;
+}
+
+.left {
+    padding: 20px;
+    height: 200px;
+    width: 25%;
+    float: left;
+    border: 20px solid yellow;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.left:hover {
+    background-color: blueviolet;
+    transition: 1s;
+}
+
+.clear {
+    clear: both;
+}

@@ -1,0 +1,10 @@
+.main {
+    background-color: coral;
+    height: 300px;
+    width: 150px;
+    border-style: solid;
+    border-color: red;
+    border: 10px 20px 30px 40px;
+    margin: 50px 25px 70px;
+    padding: 50px 20px 70px;
+}

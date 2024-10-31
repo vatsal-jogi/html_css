@@ -1,0 +1,13 @@
+h1 {
+    background-color: lightseagreen;
+    color: lightsteelblue;
+    font-size: 30;
+    text-align: center;
+}
+
+p {
+    background-color: lightcoral;
+    color: lightcyan;
+    font-size: 20px;
+    text-align: justify;
+}

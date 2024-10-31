@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+            height: 50px;
+            width: 40%;
+            background-color: lightblue;
+            color: black;
+            font-size: large;
+            padding: 5px;
+            margin: 3px;
+            border-radius: 10px;
+            outline: 0;
+            border: 0;
+            border-bottom: 4px solid blue;
+            background-image: url("image/serch.png");
+            background-repeat: no-repeat;
+            background-size: 50px;
+            background-position-x: 0;
+            background-position-x: 98%;
+            display: block;
+            transition: width 2s;
+        }
+        
+        input:hover {
+            background-color: lightsalmon;
+            color: darkcyan;
+        }
+        
+        input:focus {
+            background-color: lightsalmon;
+            color: black;
+            width: 60%;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <input type="text" placeholder="Enter a name">
+        <input type="text" placeholder="Enter a surname">
+        <input type="password">
+    </form>
+</body>
+
+</html>

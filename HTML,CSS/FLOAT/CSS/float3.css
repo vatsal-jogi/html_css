@@ -1,0 +1,46 @@
+.main {
+    background-color: lightslategray;
+    padding: 50px;
+    margin: 0px;
+}
+
+.a {
+    height: 200px;
+    width: 24%;
+    border: 3px solid black;
+    float: left;
+    background-color: lightcoral;
+    padding-left: 2px;
+    box-sizing: border-box;
+}
+
+.b {
+    height: 200px;
+    width: 24%;
+    border: 3px solid black;
+    float: left;
+    background-color: lightseagreen;
+    box-sizing: border-box;
+}
+
+.c {
+    height: 200px;
+    width: 24%;
+    border: 3px solid black;
+    float: left;
+    background-color: lime;
+    box-sizing: border-box;
+}
+
+.d {
+    height: 200px;
+    width: 24%;
+    border: 3px solid black;
+    float: left;
+    background-color: lightpink;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
